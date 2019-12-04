@@ -1,0 +1,21 @@
+EonSign is a commandline tool that lets you sign apps with an enterprise certificate.
+
+How To Use:
+
+1. Put all of the files listed below in a folder:
+'certname'.p12
+'provisionname'.mobileprovision
+'ipaname'.ipa
+2. Open Keychain Access and drag your cert into the application.
+3. Open Terminal.
+4. cd into the folders directory
+5. Type 'chmox +x EonSign.sh'
+6. Run EonSign by typing './EonSign.sh'
+7. Enter the ipa name without '.ipa'
+8. Enter the mobileprovision name without '.mobileprovision'
+9. Enter the certificate name without '.p12'
+10. Press 'Shift' & 'A'
+
+That is pretty much it!
+
+All Rights Reserved. © 2019 CaspD3V
